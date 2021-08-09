@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aadi's Customized TShirts</title>
+</head>
+
+<body bgcolor="#D7F7F5">
+
+<h1 align="center">Custom Tshirt order form</h1>
+
+<div align="center" class="form">
+  <form class="myForm" method="get">
+  <br>
+  
+  <hr>
+  <h3>Tshirt Details</h3>
+  <label>Choose the type</label>
+  <input type="radio" name="Standard" > Standard</input>
+  <input type="radio" name="Polo Neck" > Polo Neck</input>
+  <input type="radio" name="V-Neck" > V-Neck</input>
+  <br><br>
+  <label>Quantity
+  <input type="number" name="qunatity">   
+  </label>
+  <br><br>
+  <label>Size:</label>
+  <input type="radio" name="Small" > Small</input>
+  <input type="radio" name="Medium" > Medium</input>
+  <input type="radio" name="Large" > Large</input>
+  <br><br>
+  <label>Color</label>
+  <select name="Color" id="Color">
+    <option value="white">White</option>
+    <option value="black">Black</option>
+    <option value="blue">Blue</option>
+    <option value="Yellow">Yellow</option>
+  </select>
+  <br><br>
+  <label>Any tagline 
+  <input type="text" name="Tagline">
+  </label>
+  <br><br>
+  <label>Special requests</label>
+  <textarea id="story" name="story" rows="1" cols="25">
+  </textarea>
+  <hr>
+ 
+  <h3>Customer Details</h3>
+  <label>Name
+  <input type="text" name="Name">
+  </label>
+  <br><br>
+  <label>Phone
+  <input type="tel" name="Phone">
+  </label>
+  <br><br>
+  <label>Email
+  <input type="email" name="Email">
+  </label>
+  <br><br>
+  <label>Shipping Address
+  <input type="text" name="Address">
+  </label>
+  <br><br>
+  <label>City
+  <input type="text" name="City">
+  </label>
+  <br><br>
+  <label>Postal code
+  <input type="text" name="Postal_code">
+  </label>
+  <br>
+  <hr>
+
+  <h3>Delivery</h3>
+  <label>Expected Delivery Date 
+  <input type="date" name="delivery_time" required>
+  </label>
+
+  <p><button>Place Order </button></p>
+
+  </form>
+</div>
+
+</body>
+</html>
